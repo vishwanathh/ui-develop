@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resproject HTML5 Framework</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+	<script>
+		//Choose if you want the window width to display - 1 = yes, 0 = no
+		var showWidth = 1;		
+		if(showWidth == 1) {
+        	$(document).ready(function () {
+            	$(window).resize(function() {
+                	var width = $(window).width();
+                	document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
+           		});
+        	});
+		}
+    </script>
+</head>
+<body>
+ <div id="output_width"></div>
+	<div id="container">
+	<header class="main-header">
+		<!-- <img id="logo" src="..." alt="Responsive Design" /> -->
+		<nav class="main-nav">
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Orders</a></li>
+				<li><a href="#">My Account</a></li>
+			</ul>
+		</nav><!--./main-nav-->
+	</header><!--./main-header-->
+	<div id="main">
+		<div id="content">
+			<article>
+			<h2>About Us!</h2>
+			<p>You are looking at a responsive web portal of products online - demo...</p>
+			</article>
+			<article>
+			<h2>Contact Us</h2>
+			<p>Ericsson, Bangalore.</p>
+			</article>
+		</div><!--./content-->
+		<aside id="sidebar">
+			<div class="block">
+				<h2>Top Sidebar</h2>
+				<p>
+					Top Sidebar 
+				</p>
+			</div><!--./side1-->
+			<div class="block">
+				<h2>Mid Sidebar</h2>
+				<p>
+					Mid Sidebar
+				</p>
+			</div><!--./side2-->
+			<div class="block">
+				<h2>Bottom Sidebar</h2>
+				<p>
+					Bottom Sidebar
+				</p>
+			</div><!--./side3-->
+		</aside>
+	</div><!--./main-->
+	<div class="clr"></div>
+	<footer>
+		<p>Responsive Design Demo &copy; 2016</p>
+	</footer>
+	</div><!--./container-->
+</body>
+</html>
