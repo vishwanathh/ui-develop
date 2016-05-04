@@ -1,0 +1,18 @@
+Review Comments:
+1. Use Eclipse IDE. Import existing git project and choose your local project repository which you have download using github tool.
+1. Properly indent HTML code using Eclipse IDE.  Use shortcut Ctrl I by selecting the code. Or Look how to format the HTML source code.
+2. Please donot leave any whitespaces in HTML code, as it will consume some bytes space. 
+  This will increase the resource size when loaded in browsers.  (Example: Line No: 6 to 9 in index.html)
+
+Challenges:
+1. rename id = "header" to "container" for the div element, since this element is the parent container holding your form.
+2. Add following style properties to the #container selector in your stylesheet:
+  - Add your background image
+  - Image should not repeat and it should scale to 100% of the page. (Use background-size property).
+  - setup width: 80% and height: 60%
+  - Align the container div to the center of the screen.
+3. Remove all style properties from your <body> element in stylesheet.
+4. Style properties of #header should be written for <h1> element. 
+5. Set height of 20% to the <h1> element
+6. Set height of 80% to the <form> element
+7. 
