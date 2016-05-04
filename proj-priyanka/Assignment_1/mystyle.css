@@ -1,0 +1,48 @@
+
+fillIn{
+	color: #99fa99;
+}
+h2 {
+    color: navy;
+    margin-left: 20px;
+}
+table {
+     
+background-color: #ffebcd;
+    color: black;
+border-color:black
+
+}
+
+table tr td {
+color:#800080,
+font-family:Courier New,
+font-size:50px;
+}
+
+nav {
+
+font-family:Courier New,
+font-size:50px
+}
+
+
+
+footer 
+{
+
+font-family:sans-serif;
+
+text-align:right;
+
+background-color:black;
+
+color:white;
+
+padding:0.5px 5px 1px 0;
+
+font-size:0.75em;
+
+margin:5px 5px 5px 5px;
+
+}
