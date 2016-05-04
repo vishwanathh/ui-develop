@@ -1,0 +1,17 @@
+Review Comments:
+1. Use Eclipse IDE. Import existing git project and choose your local project repository which you have download using github tool.
+2. Properly indent HTML code using Eclipse IDE.  Use shortcut Ctrl I by selecting the code. Or Look how to format the HTML source code.
+3. Ensure there is no whitespaces in HTML code, as it will consume some bytes space. 
+4. Remove unused htmls and images from your project.
+6. Create project folders for specific resources:
+  - For example: folder "Assignment1" should be renamed to your project-title.
+  - stylesheet should be in css/ folder
+  - images should be in images/ folder
+  - all javascript files should be in js/ folder
+  - only one index.html should be present.
+Challenges:
+1. Your task is simple, but challenging.  You are going to recreate the Jobs portal page using the requirements provided.
+- Refer to the requirements image placed in this same git folder.  Build your page exactly like this.
+
+
+  
