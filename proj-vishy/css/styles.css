@@ -1,25 +1,122 @@
 @CHARSET "utf-8";
 
+html {
+	font-size: 87.5%;
+}
+
 body {
-	color: #666666;
 	font-family: arial, sans-serif;
-	line-height: 1.7em;	
+	color: gray;
+	line-height: 1.7em;
+	text-align: left;
 }
 
 #container {
 	margin: 0 auto;
 	clear: both;
-	width: 80%;
+	width: 90%;
 	overflow: auto;
+}
+
+#logo {
+	font-weight: bolder;
+	font-size: 42px;
+	padding: 40px 0;
 }
 
 #content {
 	float: left;
 	width: 70%;
 	overflow: auto;
+	transition: width 1s;
 }
 
 #sidebar {
 	width: 30%;
 	float: left;
+}
+
+.main-nav {
+	background-color: maroon;
+	border-radius: 5px;
+	height: 40px;
+	border: 1px solid maroon;
+}
+
+a:hover{
+	color:#666666;
+}
+
+.main-nav ul {
+	margin:0;
+	padding:0;
+}
+
+.main-nav li {
+	float: left;
+	display: inline;
+	margin-right: 3px;
+}
+
+.main-nav a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	height: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.main-nav a:hover, .main-nav a.active {
+	background: gold;
+	border-radius: 5px;
+	color: maroon;
+}
+
+#content article {
+	background: #eeffef;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+#content article a.readmore {
+	background: maroon;
+	padding: 4px;
+	border-radius: 4px;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+}
+
+#content article a:hover {
+	background: #000;
+}
+
+#sidebar .block {
+	background: #eeffef;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+.clr {
+	clear: both;
+}
+
+
+footer {
+	background: maroon;
+	border-radius: 5px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer p {
+	padding-top: 10px;
 }
