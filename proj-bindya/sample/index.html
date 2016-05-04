@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Form</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        
+		
+	
+	
+    </head>
+    <body  >
+	
+	 <div id="header"><h1>Online Fruit Shop</h1>
+	<form action="sample.html">
+	<table>
+    <tbody>
+        <tr>
+			<td>
+			<table>
+			
+            <tr>
+					<td>
+						Name:
+					</td>
+					<td>
+					<input type="text" name="Name"  required pattern="[A-Za-z]{10}"><br>
+					</td>
+		    </tr>
+			
+			<tr>
+			<td>
+		Address:
+		</td>
+		<td>
+		<textarea name="msg" rows="4" cols="50"></textarea>
+		</td>
+		</tr>
+		
+		<tr>
+		<td>
+		Phone Number:</td>
+		
+		<td>
+		<input type="text" name="phone number" required pattern="[/^+91(7\d|8\d|9\d)\d$/]{10}" title="Phone number with 7-9 and remaing 9 digit with 0-9"><br>
+		</td>
+		</tr>
+		
+		<tr>
+		<td>
+		Fruits:
+		</td>
+		<td>
+		<select>
+	<option value="apple">Apple</option>
+	<option value="Banana">Banana</option>
+	<option value="cherry">cherry</option>
+	<option value="Fig">Fig</option>
+	<option value="Guava">Guava</option>
+	<option value="grapes">Grapes</option>
+	<option value="Jack fruit">Jack Fruit</option>
+	<option value="Kiwi">Kiwi</option>
+	<option value="Mango">Mango</option>
+	<option value="Orange">Orange</option>
+	<option value="pineapple">pineApple</option>
+	<option value="Star Fruit">Star Fruit</option>
+	<option value="Strawberry">StrawBerry</option>
+	</select>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	KGS:</td>
+	
+	<td>
+	<select>
+	<option value="250">0.25 KG</option>
+	<option value="500">0.50 KG</option>
+	<option value="750">0.75 KG</option>
+	<option value="1000">1.00 KG</option>
+	
+	</select>
+	</td>
+	</tr>
+	
+	<tr>
+	
+	<td>
+	<p>Payment type:</p>
+	</td>
+	
+	<td>
+                    <input type="radio" required id="codcheck" name="Payment type:" onclick = "paymentOption('coddetails')" value="COD">COD</input>
+                    <input type="radio" required id="cccheck" name="Payment type:" onclick = "paymentOption('ccdetails')" value="credit/debit card">Credit/Debit card</input> <br/><br/>
+	</td>
+	
+	</tr>
+	
+	<tr id="coddetails" style="display:none">
+		<td colspan=2>
+			<input type="checkbox" name="codcheck" >Same as Above Address</input>
+		</td>
+		
+		<td colspan=2>
+			<textarea name="codaddress" id="codaddress"  rows="4" cols="50"></textarea>
+		</td>
+		
+		
+	<tr>
+	
+	<tr id="ccdetails" style="display:none" >
+		<td>
+			<input type="text" name="cardname"  pattern="[0-9]{16}" >Card Number</input>
+		</td>
+		<td>
+			<input type="text" name="cvv"  pattern="[0-9]{3}" >CVV</input>
+		</td>
+	<tr>
+	
+	<tr>
+		<td colspan=2 >
+			<input type="submit" value="Submit" />
+		</td> 
+	</tr>
+
+		</table>
+			</td>
+			
+			</td>
+			
+            <td>
+				<img src="./images.jpg" alt="Fruits" />
+			</td>
+           
+        </tr>
+    </tbody>
+ </table>
+</form>
+ </div>
+
+   <script>
+	
+		function paymentOption(id)
+		{
+			if(document.getElementById("codcheck").checked)
+			{
+				var cod = document.getElementById("coddetails");
+    		  cod.style.display = (cod.style.display == 'block') ? 'none' : 'block';
+			}
+			else
+			{
+				var cod = document.getElementById("coddetails");
+    		  cod.style.display = (cod.style.display == 'block') ? 'none' : 'block';
+			}
+			
+			if(document.getElementById("cccheck").checked)
+			{
+				 var cc =  document.getElementById("ccdetails");
+			  cc.style.display = (cc.style.display == 'block') ? 'none' : 'block';
+			}
+			else
+			{
+				 var cc =  document.getElementById("ccdetails");
+			  cc.style.display = (cc.style.display == 'block') ? 'none' : 'block';
+			}
+			
+		}
+	</script>
+	
+	 </body>
+</html>
