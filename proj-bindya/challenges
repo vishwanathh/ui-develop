@@ -15,4 +15,7 @@ Challenges:
 4. Style properties of #header should be written for <h1> element. 
 5. Set height of 20% to the <h1> element
 6. Set height of 80% to the <form> element
-7. 
+7. Building table layouts:
+  - Convert <table> to <div class="table"> elements
+  - Convert all <tr> to <div class="tr">
+  - Convert all <td> to <div class="td">
