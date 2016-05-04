@@ -1,9 +1,15 @@
 Review Comments:
 1. Use Eclipse IDE. Import existing git project and choose your local project repository which you have download using github tool.
-1. Properly indent HTML code using Eclipse IDE.  Use shortcut Ctrl I by selecting the code. Or Look how to format the HTML source code.
-2. Please donot leave any whitespaces in HTML code, as it will consume some bytes space. 
+2. Properly indent HTML code using Eclipse IDE.  Use shortcut Ctrl I by selecting the code. Or Look how to format the HTML source code.
+3. Please donot leave any whitespaces in HTML code, as it will consume some bytes space. 
   This will increase the resource size when loaded in browsers.  (Example: Line No: 6 to 9 in index.html)
-
+4. Remove unused htmls and images from your project.
+5. Create project folders for specific resources:
+  - For example: folder "sample" should be renamed to your project-title. eg. fruitShopApp
+  - stylesheet should be in css/ folder
+  - images should be in images/ folder
+  - all javascript files should be in js/ folder
+  - only one index.html should be present.
 Challenges:
 1. rename id = "header" to "container" for the div element, since this element is the parent container holding your form.
 2. Add following style properties to the #container selector in your stylesheet:
