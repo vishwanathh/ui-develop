@@ -1,0 +1,25 @@
+Review Comments:
+1. Use Eclipse IDE. Import existing git project and choose your local project repository which you have download using github tool.
+2. Properly indent HTML code using Eclipse IDE.  Use shortcut Ctrl I by selecting the code. Or Look how to format the HTML source code.
+3. Ensure there is no whitespaces in HTML code, as it will consume some bytes space. 
+  This will increase the resource size when loaded in browsers.  (Example: Line No: 6 to 9 in index.html)
+4. Remove unused htmls and images from your project.
+5. Use lowercases when naming files.
+6. Create project folders for specific resources:
+  - For example: folder "Assignment1" should be renamed to your project-title.
+  - stylesheet should be in css/ folder
+  - images should be in images/ folder
+  - all javascript files should be in js/ folder
+  - only one index.html should be present.
+7. It is important that every tag should have an closing tag.  There is an extra </div> tag which is not required.
+Challenges:
+1. <body></body> should start after <head></head> section. HTML contents should go inside <body> only..
+2. Add a parent <div id="container">..</div> 
+3. Create a header element with text "Online Library" inside container div.
+4. Create the form after header and inside the container div.  action can be "#"
+5. Align the entire container div at the center of the screen.  Give a size of width: 80% and height: 80% to the container
+6. Setup a simple form only with two fields - name & email. On Form submit, show the details of name & email entered and 
+provide an ability to go back and change the input.
+7. Add a san serif font to the body.
+8. Add a footer element showing "Copyright 2016" information.
+9. The text "Visitor's Access Registration form" should be at the center.  On window re-size the font size should reduce.
