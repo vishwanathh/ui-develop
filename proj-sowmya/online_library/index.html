@@ -10,19 +10,25 @@
 		<div class="row-h3 pg_h_fcolor">
 			<header>Online Library!!</header>
 		</div>
-		<form id="form1" action="#" method=post>
+		<form id="form1" action="#">
 			<div class="row">
 				<div class="text">Visitor's Access Registration form</div>
 				<hr />
-				<span style="color: red">*</span> <span style="font-size: 10px">
-					Mandatory fields</span>
-				<div class="table">
+				<p style="text-align: center" id="demo"></p>
+				<p style="text-align: center" id="demo1"></p>
+				<div class="table" id="table">
+					<div class="tr">
+						<div class="td">
+							<span style="color: red">*</span> <span style="font-size: 10px">
+								Mandatory fields</span>
+						</div>
+					</div>
 					<div class="tr">
 						<div class="td">
 							Name:<span style="color: red">*</span>
 						</div>
 						<div class="td">
-							<input type="text" name="Name" id="name" name="Name" required />
+							<input type="text" name="Name" id="Name" name="Name" required />
 						</div>
 					</div>
 					<div class="tr">
@@ -30,24 +36,22 @@
 							Email: <span style="color: red">*</span>
 						</div>
 						<div class="td">
-							<input type="email" name="Email" required />
-						</div>
-						<div class="td">
-							<button type="button" onsubmit="myFuction()">Submit</button>
-							<button type="Reset">Reset</button>
+							<input type="email" id="Email" name="Email" required />
 						</div>
 					</div>
 				</div>
 			</div>
+			<button type="button" onclick="myFuction()" value="Submit">Submit</button>
 	</div>
 	</form>
 	<footer>copyright 2016</footer>
-
 	<script>
-		function myFunction() {
-			var x = document.getElementById("name");
-			var value = $("#name").val();
-			value.show();
+		function myFuction() {
+			document.getElementById("table").style.visibility = "hidden";
+			var x = document.getElementById("Name").value;
+			var y = document.getElementById("Email").value;
+			document.getElementById("demo").innerHTML = x;
+			document.getElementById("demo1").innerHTML = y;
 		}
 	</script>
 </body>
