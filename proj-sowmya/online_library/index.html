@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/Style.css">
+<title>Online Library</title>
+</head>
+<body onload="form1.reset">
+	<div class="container">
+		<div class="row-h3 pg_h_fcolor">
+			<header>Online Library!!</header>
+		</div>
+		<form id="form1" action="#" method=post>
+			<div class="row">
+				<div class="text">Visitor's Access Registration form</div>
+				<hr />
+				<span style="color: red">*</span> <span style="font-size: 10px">
+					Mandatory fields</span>
+				<div class="table">
+					<div class="tr">
+						<div class="td">
+							Name:<span style="color: red">*</span>
+						</div>
+						<div class="td">
+							<input type="text" name="Name" id="name" name="Name" required />
+						</div>
+					</div>
+					<div class="tr">
+						<div class="td">
+							Email: <span style="color: red">*</span>
+						</div>
+						<div class="td">
+							<input                                                                                                                    type="email" name="Email" required />
+						</div>
+						<div class="td">
+							<button type="button" onsubmit="myFuction()">Submit</button>
+							<button type="Reset">Reset</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</form>
+	<footer>copyright 2016</footer>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("name");
+			var value = $("#name").val();
+			value.show();
+		}
+	</script>
+</body>
+</html>

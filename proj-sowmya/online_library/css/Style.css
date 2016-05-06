@@ -1,0 +1,45 @@
+
+body {
+	font-family: sans-serif;
+}
+
+.table {
+	padding: 10px;
+	display: table;
+	border: solid 1px blue;
+	margin: 0 auto;
+	border-radius: 5px;	
+}
+
+.tr {
+	display: table-row;
+}
+
+.td {
+	display: table-cell;
+	padding: 10px;
+}
+
+.text {
+	color: orange;
+	text-align: center;
+	font-size:200%;	
+}
+
+.container {
+	margin:0 auto;
+	width: 60%;
+	height: 80%;
+	background-color: #d0e4fe;
+}
+
+.pg_h_fcolor {
+	background-color: #1CA5EF;
+}
+
+.row-h3 {
+	position: relative;
+	font-size: 25px;
+	font-family: Times new Roman;
+	padding: 1em;
+}
