@@ -1,7 +1,7 @@
 nav.ul      { width: 1000px;
 
 background-color:FFCC33;
- float: left}
+/* float: left*/}
 div.grid div  { float: left; height: 45px;  color:FFCC33}
 nav.ul  { float: left; height: 45px;  color:FFCC33;}
 li.col100    { width: 100px;
@@ -20,9 +20,46 @@ li.col { spacing:50px;}
 body{
 background-image:url("./iamges/backgroungiamges.jpg");
 }
+
+div.input1
+{
+	height:50px;
+}
 /*col600.border{
 	border-style:solid; border-width:1px; border-color:#000000; border-spacing:1px 1px; border-radius:3px 3px 3px 3px; height:10px; padding-bottom:2px; padding-left:2px; padding-right:2px; padding-top:2px; 
 }*/
+
+div.input2.auto=complete-input2
+{
+	float:left;
+}
+div.input1.auto=complete-input1
+{
+	float:left;
+}
+ul
+{
+	border-style:solid; border-width:1px;border-color:#000000; border-spacing:10px 10px;
+	
+}
+div.auto=complete-input4 div
+{
+	width:500px;
+}
+
+/*#ip
+{
+    background-color: #00FFFF
+}
+*/
+
+p.paragraph1 {
+    font-family: "Times New Roman", Times, serif;
+font-style: bold;
+font-size: 40px;
+text-align: center;
+
+}
 
   
 /*nav ul li {
