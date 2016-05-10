@@ -21,3 +21,4 @@
 [0509/164025:ERROR:process_info.cc(608)] range at 0xfff5b000, size 0xf84 fully unreadable
 [0509/164028:ERROR:process_reader_win.cc(232)] ReadMemory at 0x908af00 of 1024 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [0509/164028:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0510/205509:ERROR:settings.cc(261)] Settings magic is not 1129342067
