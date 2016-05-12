@@ -12,12 +12,6 @@ app.controller('ContactController', function ($scope) {
 		$scope.contacts = formContact;	
 		$scope.page = "show";
 	};
-	
-	$scope.get = function() {
-		return mainService.getContacts();
-	};	
-	
-	console.log("you are on the page ::: " + $scope.page);
 
 });
 

@@ -29,10 +29,10 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#" ng-click="page='home'">Home</a></li>
-						<li><a href="#" ng-click="page='add'">Add Contact</a></li>
-						<li><a href="#" ng-click="page='show'">Show Contact</a></li>
-						<li><a href="#" ng-click="page='remove'">Remove Contact</a></li>
+						<li ng-class="{active: page=='home'}"><a href="#" ng-click="page='home'">Home</a></li>
+						<li ng-class="{active: page=='add'}"><a href="#" ng-click="page='add'">Add Contact</a></li>
+						<li ng-class="{active: page=='show'}"><a href="#" ng-click="page='show'">Show Contact</a></li>
+						<li ng-class="{active: page=='remove'}"><a href="#" ng-click="page='remove'">Remove Contact</a></li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
