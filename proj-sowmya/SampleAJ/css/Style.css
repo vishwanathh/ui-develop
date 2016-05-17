@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+}
+
+
+.text {
+	color: orange;
+	text-align: center;
+	font-size: 180%;
+	padding: 10px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #d0e4fe;
+}
+
+.pg_h_fcolor {
+	background-color: #1CA5EF;
+}
+
+.row-h3 {
+	position: relative;
+	font-size: 25px;
+	font-family: Times new Roman;
+	padding: 1em;
+}
