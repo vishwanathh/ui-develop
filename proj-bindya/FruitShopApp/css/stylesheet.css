@@ -1,0 +1,127 @@
+html {
+	font-size: 140%;
+}
+
+
+#container {    
+	height: 480px;
+	border: solid 4px brown;
+}
+
+header {
+	height: 50px;
+	background-color: brown;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	text-align: center;
+	color: #fff;
+	
+}
+
+body {
+ //background: url('../images/background.jpg');
+ background-color: gold;
+ background-size: 100%;
+ font-family: sans-serif;
+}
+
+
+.table {
+	display: table;
+	margin: 0 auto;
+	width: 480px;
+	border: solid 2px black;
+	border-radius: 4px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.tr {
+	display: table-row;
+}
+
+.td {
+	display: table-cell;
+	padding: 5px;
+}
+
+.buttonrow {
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.space {
+	clear: both;
+	height: 40px;
+}
+
+input[type="button"] {
+	background-color: orange;
+	font-weight: bolder;
+	margin: 0 auto;
+}
+
+/*
+img {
+	width: 40%;
+	float: right;
+}
+h1 {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+	padding-top: 5px;	
+}
+
+form {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    display: inline-block;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+    color: #777;
+}
+
+textarea {
+	vertical-align: top;
+	width: 400px;
+	color: #777;
+}
+
+#wrapper {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    position: relative;
+    top: -10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 3px #444;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+#inputs {
+	width: 200px;
+	clear: both;
+}
+
+#inputs input {
+	width: 100%;
+	clear: both;
+}
+
+table
+{
+	width: 95%;
+}*/
